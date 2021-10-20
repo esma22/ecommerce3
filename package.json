@@ -24,5 +24,10 @@
     "webpack": "^5.58.2",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "expose-loader": "^3.0.0",
+    "font-awesome": "^4.7.0"
   }
 }
