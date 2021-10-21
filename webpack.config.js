@@ -37,30 +37,25 @@ module.exports = {
         ],
       },
       {
-          test:/\.css$/,
-          use: [
-            {
-              loader: MiniCssExtractPlugin.loader, 
-              options: {
-                publicPath: '../' 
-              }
-            },
-            'css-loader',
-            
-          ]
+        test: /\.(sa|sc|c)ss$/,
+        use: [{
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '../'
+            }
+          },
+          'css-loader',
+        ]
       },
       {
-        test:/\.(png|svg|jpg?g|gif)$/,
-        use:[
-          {
-            loader:"file-loader",
-            options:{
-                name:'[name].[ext]',
-                outputpath:"images",
-            
-            }
+        test: /\.(png|svg|jpe?g|gif)$/,
+        use: [{
+          loader: "file-loader",
+          options: {
+            name: '[name].[ext]',
+            outputPath: "images",
           }
-        ]
+        }]
       },
       {
         test:/\.(svg|eot|woff|woff2|ttf)$/,
