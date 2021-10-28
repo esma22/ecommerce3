@@ -410,7 +410,7 @@ display: block;
   max-width: 260px;
   margin: auto;
 }
-input[type=email]{
+input[type=email],input[type=number]{
    direction: rtl;
    text-align: right;
 }
@@ -655,6 +655,42 @@ checkout page
 .custom-table .total-price .custom-text-muted .custom-text-muted{
   color: #a9a9a9;
 }
+/**********************************************
+***********************************************
+payment page
+***********
+**********************************************/
+.custom-input-details{
+  border-width: 2px;
+  border-radius: 3px;
+  height: 46px !important;
+  padding: 0 16px;
+  font-size: 18px;
+  width: 97%;
+}
+.custom-input-details:focus{
+  border-color: #b86d07;
+  box-shadow: #b86d07;
+}
+#credit-card-info{
+  margin-right: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**********************************************
 ***********************************************
 Media Query
