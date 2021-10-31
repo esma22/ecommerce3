@@ -752,10 +752,38 @@ search page
 .custom-pagination{
   margin: 25px 0;
 }
-
-
-
-
+/**********************************************
+***********************************************
+ contact page
+***********
+**********************************************/
+#map{
+  padding: 0;
+}
+#contact-options h4{
+  font-size: 18px;
+  padding-bottom: 12px;
+ 
+}
+.heading-with-border-bottom{
+  margin-bottom: 20px;
+}
+#contact-info{
+  padding-bottom: 25px;
+}
+#contact-info .fa-lg{
+  color: #f3af41;
+  font-size: 18px;
+  margin: 10px 10px 7px 10px;
+  width: 25px;
+  text-align: center;
+}
+#contact-options textarea{
+  height: 128px !important;
+}
+#contact-options{
+  margin-bottom: 25px;
+}
 /**********************************************
 ***********************************************
 Media Query
@@ -857,7 +885,9 @@ Media Query
     width: 20px!important;
     top: -10px!important;
   }
- 
+ #form-subscription{
+   margin-bottom: 40px;
+ }
 }
 
 @media (max-width:767px) {
